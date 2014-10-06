@@ -1,0 +1,74 @@
+body{margin: 0;position: relative;font-family: 'Helvetica Neue Light', Helvetica, 'Heiti TC Light', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;-webkit-font-smoothing:antialiased;background-color: #000;}
+.hide{display: none;}
+
+.frame{width: 320px;height: 568px;background-size: 320px 568px;overflow: hidden;position: absolute;top: 0;left: 50%;margin-left: -160px;
+	opacity: 0;
+	transition:all .5s ease;-webkit-transition:all .5s ease;
+	transform:translateX(100%);-webkit-transform:translateX(100%);}
+.btn-back{position: absolute;top: 28px;left: 8px;width: 52px;height: 28px;}
+
+.frame1{background-image: url(img/frame1@2x.png);background-size: 320px 1031px;width: 320px;height: 841px;padding-top: 190px;
+	transform:translateX(0%);-webkit-transform:translateX(0%);opacity: 1;}
+.frame1-list-link{width: 320px;height: 110px;display: block;}
+
+.frame2{background-image: url(img/frame2@2x.png);}
+.frame2-btn-buy{background-image: url(img/frame2-btn-buy@2x.png);width: 210px;height: 40px;background-size: 210px 40px;display: block;position: absolute;top: 520px;left: 50%;margin-left: -105px;}
+.frame2-btn-buy:active{opacity: 0.9;}
+.frame2-move-tips{position: absolute;top: 0;left: 0;right: 0;bottom: 0;background-color: rgba(0,0,0,0.5);z-index: 2}
+.frame2-move-tips .icon{background-image: url(img/frame2-move-tips@2x.png);width: 176px;height: 62px;background-size: 176px 62px;position: absolute;top: 407px;left: 3px;}
+.frame2-move-bar{width: 28px;height: 28px;border-radius: 14px;background-color: #9c1d80;position: absolute;top: 413px;left: 16px;color: #fff;font-size: 12px;line-height: 28px;text-align: center;}
+.frame2-price{color: #9c1d80;font-size: 36px;position: absolute;top: 359px;left: 4px;}
+.frame2-time-wrap{width: 66px;height: 13px;position: absolute;top: 344px;left: 141px;font-size: 12px;}
+.frame2-hour,
+.frame2-minute,
+.frame2-second{width: 18px;float: left;color: #fff;line-height: 14px;letter-spacing: 3px;}
+.frame2-minute,
+.frame2-second{margin-left: 6px;}
+.frame2-btn-detail{position: absolute;top: 365px;left: 277px;width: 30px;height: 30px;}
+
+.frame3{background-image: url(img/frame3@2x.png);}
+
+.frame4{background-image: url(img/frame4@2x.png);}
+.frame4-num{font-size: 14px;position: absolute;top: 162px;left: 108px;color: #9c1d80;}
+.frame4-price{font-size: 79px;color: #9c1d80;position: absolute;top: 186px;left: 15px;}
+.frame4-choose{position: absolute;top: 479px;left: 14px;width: 22px;height: 22px;}
+.frame4-icon-choose{width: 20px;height: 16px;background-size: 20px 16px;background-image: url(img/frame4-icon-choose@2x.png);position: absolute;top: 478px;left: 19px;}
+.frame4-btn-ok{width: 100px;height: 40px;position: absolute;left: 50%;margin-left: -50px;bottom: 10px;}
+
+.frame5{background-image: url(img/frame5@2x.png);}
+.frame5-cover{position: absolute;top: 0;left: 0;right: 0;bottom: 0;background-color: rgba(0,0,0,0.68);opacity: 0;}
+.frame5-dialog{background-image: url(img/frame5-dialog@2x.png);width: 280px;height: 210px;background-size: 280px 210px;position: absolute;top: -210px;left: 50%;margin-left: -140px;
+	transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;}
+.frame5-keyboard{background-image: url(img/frame5-keyboard@2x.png);width: 320px;height: 216px;background-size: 320px 216px;position: absolute;bottom: -216px;left: 0;
+	transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;}
+.frame5-dialog-code1{width: 12px;height: 12px;border-radius: 6px;background-color: #000;position: absolute;top: 181px;left: 52px;}
+.frame5-dialog-code2{width: 12px;height: 12px;border-radius: 6px;background-color: #000;position: absolute;top: 181px;left: 93px;}
+.frame5-dialog-code3{width: 12px;height: 12px;border-radius: 6px;background-color: #000;position: absolute;top: 181px;left: 133px;}
+.frame5-dialog-code4{width: 12px;height: 12px;border-radius: 6px;background-color: #000;position: absolute;top: 181px;left: 174px;}
+.frame5-dialog-code5{width: 12px;height: 12px;border-radius: 6px;background-color: #000;position: absolute;top: 181px;left: 216px;}
+.frame5-dialog-code6{width: 12px;height: 12px;border-radius: 6px;background-color: #000;position: absolute;top: 181px;left: 257px;}
+.frame5-keyboard-code1{width: 105px;height: 54px;position: absolute;bottom: 162px;left: 0px;background-color: rgba(213, 217, 220,0.5)}
+.frame5-keyboard-code2{width: 111px;height: 54px;position: absolute;bottom: 162px;left: 105px;background-color: rgba(213, 217, 220,0.5)}
+.frame5-keyboard-code3{width: 105px;height: 54px;position: absolute;bottom: 162px;left: 215px;background-color: rgba(213, 217, 220,0.5)}
+.frame5-keyboard-code4{width: 105px;height: 54px;position: absolute;bottom: 108px;left: 0px;background-color: rgba(213, 217, 220,0.5)}
+.frame5-keyboard-code5{width: 111px;height: 54px;position: absolute;bottom: 108px;left: 105px;background-color: rgba(213, 217, 220,0.5)}
+.frame5-keyboard-code6{width: 105px;height: 54px;position: absolute;bottom: 108px;left: 215px;background-color: rgba(213, 217, 220,0.5)}
+.frame5-btn-pay{position: absolute;width: 300px;height: 42px;top: 308px;left: 50%;transform:translateX(-50%);}
+.frame5-btn-pay:active{background-color: rgba(0,0,0,0.2);}
+
+.frame6{background-image: url(img/frame6@2x.png);}
+.frame6-btn-buy{background-image: url(img/frame6-btn-buy@2x.png);width: 299px;height: 44px;background-size: 299px 44px;position: absolute;top: 388px;left: 11px;}
+.frame6-btn-buy:active{opacity: 0.9;}
+.frame6-cover{position: absolute;top: 0;left: 0;right: 0;bottom: 100%;background-color: rgba(0,0,0,0.68);opacity: 0;}
+.frame6-dialog{background-image: url(img/frame6-dialog@2x.png);width: 284px;height: 271px;background-size: 284px 271px;position: absolute;left: 18px;top: -271px;
+	transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;}
+.frame6-dialog-ok{position: absolute;top: 365px;left: 166px;width: 122px;height: 44px;}
+
+.frame7{background-image: url(img/frame7@2x.png);}
+.frame7-select{background-image: url(img/frame7-select@2x.png);width: 320px;height: 56px;background-size: 320px 56px;position: absolute;left: 0;top: 184px;}
+.frame7-btn-select{width: 320px;height: 56px;position: absolute;left: 0;top: 184px;}
+
+.frame8{background-image: url(img/frame8@2x.png);}
+.frame8-msg{background-image: url(img/frame8-msg@2x.png);width: 267px;height: 111px;background-size: 267px 111px;position: absolute;left: 44px;bottom: -111px;
+	transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;}
+
