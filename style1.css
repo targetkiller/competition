@@ -1,4 +1,4 @@
-body{margin: 0;position: relative;font-family: 'Helvetica Neue Light', Helvetica, 'Heiti TC Light', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;-webkit-font-smoothing:antialiased;background-color: #000;}
+body{margin: 0;position: relative;font-family: 'Helvetica Neue Light', Helvetica, 'Heiti TC Light', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;-webkit-font-smoothing:antialiased;background-color: #000;overflow: hidden;}
 .hide{display: none;}
 
 .frame{width: 320px;height: 568px;background-size: 320px 568px;overflow: hidden;position: absolute;top: 0;left: 50%;margin-left: -160px;
@@ -63,6 +63,7 @@ body{margin: 0;position: relative;font-family: 'Helvetica Neue Light', Helvetica
 .frame6-dialog{background-image: url(img/frame6-dialog@2x.png);width: 284px;height: 271px;background-size: 284px 271px;position: absolute;left: 18px;top: -271px;
 	transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;}
 .frame6-dialog-ok{position: absolute;top: 365px;left: 166px;width: 122px;height: 44px;}
+.frame6-dialog-cancel{position: absolute;top: 365px;left: 32px;width: 122px;height: 44px;}
 
 .frame7{background-image: url(img/frame7@2x.png);}
 .frame7-select{background-image: url(img/frame7-select@2x.png);width: 320px;height: 56px;background-size: 320px 56px;position: absolute;left: 0;top: 184px;}

@@ -89,7 +89,11 @@ $('.frame6-btn-buy').bind('click',function(){
 $('.frame6-dialog-ok').bind('click',function(){
 	$('.frame6').css({'-webkit-transform':'translateX(-100%)','opacity':0});
 	$('.frame7').css({'-webkit-transform':'translateX(0)','opacity':1});
-			
+});
+
+$('.frame6-dialog-cancel').bind('click',function(){
+	$('.frame6-cover').css({'opacity':0,'bottom':'100%'});
+	$('.frame6-dialog').css({'-webkit-transform':'translateY(-420px)'});
 });
 
 $('.frame7-btn-select').bind('click',function(){
@@ -180,6 +184,9 @@ $('.frame8 .btn-back').bind('click',function(){
 	$('.frame8').css({'-webkit-transform':'translateX(100%)','opacity':0});
 	$('.frame7').css({'-webkit-transform':'translateX(0)','opacity':1});
 	$('.frame8-msg').css({'-webkit-transform':'translateY(306px)'});
+	setTimeout(function(){
+			$('.frame8-msg').css({'-webkit-transform':'translateY(-306px)'});
+	},300);
 });
 // 返回 end
 
