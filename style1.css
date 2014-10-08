@@ -1,4 +1,4 @@
-body{margin: 0;position: relative;font-family: 'Helvetica Neue Light', Helvetica, 'Heiti TC Light', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;-webkit-font-smoothing:antialiased;background-color: #000;overflow: hidden;}
+body{margin: 0;position: relative;font-family: 'Helvetica Neue Light', Helvetica, 'Heiti TC Light', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;-webkit-font-smoothing:antialiased;background-color: #000;}
 .hide{display: none;}
 
 .frame{width: 320px;height: 568px;background-size: 320px 568px;overflow: hidden;position: absolute;top: 0;left: 50%;margin-left: -160px;
@@ -8,7 +8,7 @@ body{margin: 0;position: relative;font-family: 'Helvetica Neue Light', Helvetica
 .btn-back{position: absolute;top: 28px;left: 8px;width: 52px;height: 28px;}
 
 .frame1{background-image: url(img/frame1@2x.png);background-size: 320px 1031px;width: 320px;height: 841px;padding-top: 190px;
-	transform:translateX(0%);-webkit-transform:translateX(0%);opacity: 1;}
+	transform:translateX(0%);-webkit-transform:translateX(0%);opacity: 1;overflow-x:auto;}
 .frame1-list-link{width: 320px;height: 110px;display: block;}
 
 .frame2{background-image: url(img/frame2@2x.png);}
